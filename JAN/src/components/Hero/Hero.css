@@ -1,0 +1,90 @@
+.container-1 {
+    background-color: #161b22;
+    border-radius: 12px;
+    margin: 3rem;
+    padding: 5rem;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-1>.details {
+    width: 30%;
+    margin: 0 2rem;
+}
+
+.container-1>.details>.Name {
+    font-size: 100px;
+    color: white;
+    height: 72px;
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+.container-1>.details>.Position {
+    font-size: 25px;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 50%);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.container-1>.details>.paragraph {
+    color: #ffffff8a;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    margin: 2rem 0;
+    width: auto;
+    text-align: center;
+}
+
+.container-1>.details>.continue {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: black 3px solid;
+    margin: 0 auto;
+    display: block;
+}
+
+.container-social {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto 0;
+}
+
+.container-social > .logo-social {
+    height: 40px;
+    width: auto;
+    color: #ffffff8a;
+}
+
+.Avatarimg-div {
+    width: 250px;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.Avatarimg-div img {
+    width: 100%;
+}
+
+
+
+/* Hover animations */
+.container-1 > .details > .continue:focus , .continue:hover{
+    box-shadow: inset 150px 0 0 0 #161b22 ,inset 0 150px  0 0 #161b22;
+    color: white;
+    transition: 1s;
+    padding: 0;
+    border-color: white;
+}
+.container-social > .logo-social:hover , .container-1>.details>.Position:hover,.container-1>.details>.paragraph:hover{
+    filter: drop-shadow(2px 4px 6px white);
+    transition: 0.5s;
+}
