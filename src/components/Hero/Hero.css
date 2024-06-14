@@ -8,21 +8,16 @@
     justify-content: center;
 }
 
-.container-1>.details {
-    width: 30%;
-    margin: 0 2rem;
-}
+
 
 .container-1>.details>.Name {
-    font-size: 100px;
     color: white;
-    height: 72px;
     margin: 1rem auto;
     width: fit-content;
 }
 
 .container-1>.details>.Position {
-    font-size: 25px;
+    
     font-family: monospace;
     color: rgba(255, 255, 255, 50%);
     margin: 0 auto;
@@ -32,32 +27,27 @@
 .container-1>.details>.paragraph {
     color: #ffffff8a;
     font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 10px;
-    letter-spacing: 3px;
     margin: 2rem 0;
     width: auto;
     text-align: center;
 }
 
 .container-1>.details>.continue {
-    width: 150px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 20px;
+    
     border: black 3px solid;
     margin: 0 auto;
     display: block;
 }
 
 .container-social {
-    width: 200px;
+    
     display: flex;
     justify-content: space-around;
     margin: 1rem auto 0;
 }
 
 .container-social > .logo-social {
-    height: 40px;
+    
     width: auto;
     color: #ffffff8a;
 }
@@ -72,6 +62,7 @@
 
 .Avatarimg-div img {
     width: 100%;
+    border-radius:100% ;
 }
 
 
@@ -87,4 +78,71 @@
 .container-social > .logo-social:hover , .container-1>.details>.Position:hover,.container-1>.details>.paragraph:hover{
     filter: drop-shadow(2px 4px 6px white);
     transition: 0.5s;
+}
+@media (max-width:320px) {
+    .Name{
+        font-size: 2rem;
+        height: auto;
+    }
+    .container-1{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .details, .Avatarimg-div{
+        width: 100%   ;
+        margin: 30px 0  ; 
+    }
+    .Avatarimg-div > img{
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .Position{
+        font-size: 1rem;
+    }
+    .container-social{
+        width: 100px;
+    }
+    .logo-social{
+        width: 25px;
+    }
+    .paragraph{
+        font-size:0.7rem;
+    }       
+    .continue{
+        font-size: 0.8rem;
+        width: 90px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+@media (min-width:321px) {
+    .Name{
+        font-size: 60px;
+    }
+    .details{
+        width: 35%;
+        margin: 0 2rem;
+    }
+    .Position{
+        font-size: 2rem;
+    }
+    .container-social {
+        width: 200px;
+    }
+    
+    .logo-social {
+        height: 40px;
+    }
+    .paragraph{
+        word-spacing: 10px;
+        letter-spacing: 3px;
+    }
+    .continue{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    
 }
