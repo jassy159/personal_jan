@@ -109,7 +109,7 @@
     transition: 0.5s;
 }
 
-@media (max-width:320px) {
+@media (max-width:520px) {
     .cards-div{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;

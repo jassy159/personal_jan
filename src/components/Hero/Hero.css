@@ -79,7 +79,7 @@
     filter: drop-shadow(2px 4px 6px white);
     transition: 0.5s;
 }
-@media (max-width:320px) {
+@media (max-width:520px) {
     .Name{
         font-size: 2rem;
         height: auto;
@@ -116,7 +116,7 @@
         border-radius: 5px;
     }
 }
-@media (min-width:321px) {
+@media (min-width:521px) {
     .Name{
         font-size: 60px;
     }
