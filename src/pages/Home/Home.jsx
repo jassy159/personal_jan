@@ -6,7 +6,7 @@ import Project from '../../components/Projects/Project'
 import Contact from '../../components/Contact/Contact'
 
 import { ToastContainer, toast,  } from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+
 
 const Home = () => {
   useEffect(()=>{
