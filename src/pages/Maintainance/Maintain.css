@@ -1,0 +1,35 @@
+.background-black{
+    background-color: rgb(34, 56, 49);
+    margin: 0;
+    height: 100vh;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(34, 56, 49);
+    height: 100px;
+    color: wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    margin: 30px auto;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-size: 50px;
+}
+span{
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+p{
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
